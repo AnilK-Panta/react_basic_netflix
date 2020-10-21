@@ -1,17 +1,47 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import App from './App.jsx';
+import App1 from './App1.jsx';
+import "./index.css";
+import BackImg from './BackImg.jsx';
+import Topic from './Topic.jsx';
+
 
 ReactDOM.render(
-  <React.StrictMode>
+  <>
+  <div className="back">
+  <BackImg />
+  {/* <Topic /> */}
+  <div className="Cards">
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <App />
+    <App />
+    <App />
+    <App />
+    <App />
+    <App />
+    <App />
+    <App />
+    <App />
+    <App />
+    <App />
+  </div>
+  {/* <Topic /> */}
+  <div className="Cards1">
+    <App1 />
+    <App1 />
+    <App1 />
+    <App1 />
+    <App1 />
+    <App1 />
+    <App1 />
+    <App1 />
+    <App1 />
+    <App1 />
+    <App1 />
+    <App1 />
+  </div>
+  </div>
+  </>,
+  document.getElementById("root")
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();

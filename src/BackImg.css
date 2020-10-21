@@ -1,0 +1,10 @@
+.Card1{
+    /* width: 1330px; */
+    /* height: 500px; */
+    display: flexbox;
+}
+.Card1 img{
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}

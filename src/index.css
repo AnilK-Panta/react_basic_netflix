@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,30 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+.Cards{
+    /* width: 100%; */
+    box-sizing: border-box;
+    display: flex;
+    overflow-x: auto;
+    margin-top: -300px;
+    background-color: transparent;
+}
+.Cards::-webkit-scrollbar{
+  width: 0px;
+}
+.Cards1{
+  /* width: 100%; */
+  box-sizing: border-box;
+  display: flex;
+  overflow-x: auto;
+  /* margin-top: -350px; */
+  background-color: transparent;
+}
+.Cards1::-webkit-scrollbar{
+width: 0px;
+}
+.back{
+  background-color: #728287;
 }
