@@ -13,7 +13,7 @@ code {
 } */
 
 .Cards{
-    /* width: 100%; */
+    height: 200px;
     box-sizing: border-box;
     display: flex;
     overflow-x: auto;
@@ -24,7 +24,7 @@ code {
   width: 0px;
 }
 .Cards1{
-  /* width: 100%; */
+  height: 200px;
   box-sizing: border-box;
   display: flex;
   overflow-x: auto;
