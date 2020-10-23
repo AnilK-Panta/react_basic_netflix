@@ -1,15 +1,31 @@
-import React from "react";
-import "./App.css";
+import React, { useState } from "react";
 
-function App(){
+const App = () => {
+
+  const [name, valname]= useState('');
+  const [valbef, valaft]= useState();
+
+  const chang = (event) => {
+    valname(event.target.value);
+  };
+  const change=()=>{
+    valaft(name);
+  }
+
   return(
-      
-    <div className="Card">
-      <div className="img_card">
-        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt=""></img>
+    <>
+      <div>
+        <h1>Hello {valbef}</h1>
+        <input 
+          type="text"
+          placeholder="Enter Your Name"
+          onChange={chang}
+          value={name}
+        />
+        <button onClick={change}>Click Me</button>
       </div>
-    </div>
-   
-  )
-}
+    </>
+  );
+
+};
 export default App;
